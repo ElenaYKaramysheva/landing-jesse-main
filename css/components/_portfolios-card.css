@@ -1,0 +1,71 @@
+/*=============================
+        Portfolios Card
+==============================*/
+
+.portfolios-card {
+    max-width: 30rem;
+}
+
+.portfolios-card__description {
+    display: block;
+    margin-left: 1.25rem;
+    margin-top: 1.25rem;
+}
+
+.portfolios-card__photo {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4/3;
+    background: var(--bg-color-secondary);
+    object-fit: cover;
+}
+
+.portfolios-card__link {
+    display: block;
+}
+
+@media (hover: hover) {
+    .portfolios-card__link:hover {
+        color: var(--text-color-secondary);
+    }
+}
+
+/*=============================
+    Portfolios Card Group
+==============================*/
+
+.portfolios-card-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: min(4.5vw, 4.5rem);
+}
+
+.portfolios-card-group__item:nth-child(3n+2) {
+    transform: translateY(-30px);
+}
+
+@media (max-width: 1023.9px) {
+    .portfolios-card {
+        max-width: 100%;
+    }
+
+    .portfolios-card-group {
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+    }
+
+    .portfolios-card-group__item:nth-child(3n+2) {
+        transform: translateY(0px);
+    }
+
+    .portfolios-card-group__item {
+        display: block;
+    }
+}
+
+@media (max-width: 376px) {
+    .portfolios-card-group {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

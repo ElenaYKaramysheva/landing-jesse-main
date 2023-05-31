@@ -1,0 +1,61 @@
+/*============================
+           Review
+=============================*/
+
+.review {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--bg-color-primary);
+    border: 1px solid var(--border-color-tertiary);
+    padding-top: 3.75rem;
+    padding-left: 3.4375rem;
+    padding-right: 3.4375rem;
+    padding-bottom: 4.6875rem;
+}
+
+.review__text {
+    width: 100%;
+    margin-bottom: 2.75rem;
+}
+
+.review__text:before {
+    content: '“';
+}
+
+.review__text:after {
+    content: '”';
+}
+
+.review__name {
+    display: block;
+    margin-bottom: 0.625rem;
+}
+
+.review__name::before {
+    content: '';
+    height: 1px;
+    width: 4.375rem;
+    background: var(--bg-color-line);
+    position: absolute;
+    top: 1.25rem;
+    transform: translate(-140%, -80%);
+}
+
+.review__cite {
+    margin-left: 5.9375rem; 
+    margin-top: auto;   
+}
+
+/*============================
+        Review Group
+=============================*/
+
+.review-group {
+    display: flex;
+    justify-content: space-around;
+    gap: 0px 2.625rem;
+}
+
+.review-group__item {
+    flex-basis: 100%;
+}

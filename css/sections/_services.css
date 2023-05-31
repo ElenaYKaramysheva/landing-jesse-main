@@ -1,0 +1,111 @@
+.section-services {
+    background-color: var(--bg-color-fourth);
+    padding-top: 10rem;
+    padding-bottom: 15.125rem;
+}
+
+.section-services__content {
+    margin-right: 5.625rem;
+}
+
+.section-services__picture {
+    width: 58%;
+    flex-shrink: 0;
+}
+
+.section-services__slider {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.services-slider__slide {
+    width: 100%;
+}
+
+.section-services__wrapper {
+    display: flex;
+    position: relative;
+    z-index: 2;
+}
+
+.services-slider__img {
+   object-fit: cover;
+   width: 100%;
+   height: 100%;
+}
+
+.services-slider__bullets {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.services-slider__bullet {
+    display: flex;
+    cursor: pointer;
+}
+
+.services-slider__bullet:not(:last-child)::after {
+    content: '';
+    width: 1px;
+    height: 4.25rem;
+    background-color: var(--border-color-swiper);
+    position: relative;
+    top: -25%;
+    margin-right: 3.25rem;
+    margin-left: 3.25rem;
+}
+
+.services-slider__bullet--active > span{
+    color: var(--text-color-primary);
+}
+
+.services-slider__bullet-number {
+    color: var(--text-color-secondary);
+    font-weight: 700;
+    font-size: 1.0625rem;
+    letter-spacing: 0.04em;
+    display: block;
+}
+
+.services-slider__bullet-text {
+    display: block;
+    color: var(--text-color-secondary);
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: normal;
+    text-transform: capitalize;
+    margin-left: 0.625rem;
+}
+
+@media (max-width: 1023.9px) {
+    .section-services {
+        padding-top: 6.25rem;
+        padding-bottom: 12.5rem;
+    }
+
+    .section-services__wrapper {
+        flex-direction: column;
+    }
+
+    .section-services__content {
+        margin-right: 0rem;
+    }
+
+    .section-services__picture {
+        width: 100%;
+    }
+
+    .services-slider__bullets {
+        justify-content: center;
+    }
+
+    .services-slider__bullet:not(:last-child)::after {
+        margin-right: 0.625rem;
+        margin-left: 0.625rem;
+        
+    }
+}

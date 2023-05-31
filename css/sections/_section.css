@@ -1,0 +1,46 @@
+.section {
+    padding: 9.375rem 0rem;
+    position: relative;
+}
+
+.section--has-triangle-left-bottom::after,
+.section--has-triangle-left-bottom-small::after,
+.section--has-triangle-right-bottom::after,
+.section--has-triangle-right-top::after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    pointer-events: none;
+}
+
+.section--has-triangle-left-bottom::after {
+    left: 0;
+    bottom: 0;
+    border-width: 6.6875rem 0 0 6.6875rem;
+    border-color: transparent transparent transparent var(--bg-color-accent);
+}
+
+.section--has-triangle-left-bottom-small::after {
+    left: 0;
+    bottom: 0;
+    border-width: 6.125rem 0 0 6.125rem;
+    border-color: transparent transparent transparent var(--bg-color-accent);
+}
+
+.section--has-triangle-right-bottom::after {
+    right: 0;
+    bottom: 0;
+    border-width: 0 0 8.125rem 8.125rem;
+    border-color: transparent transparent var(--bg-color-accent) transparent;
+}
+
+.section--has-triangle-right-top::after {
+    right: 0;
+    top: 0;
+    border-width: 0 7.75rem 7.75rem 0;
+    border-color: transparent var(--bg-color-accent) transparent transparent;
+}
+

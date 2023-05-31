@@ -1,0 +1,26 @@
+:root {
+  --text-color-primary: #053634;
+  --text-color-secondary: #72908B;
+  --text-color-primary-inverted: #F8F6F1;
+  --text-color-primary-inverted-alpha: rgba(248, 246, 241, 0.55);
+
+  --bg-color-primary: #F8F6F1;
+  --bg-color-secondary: #A4B7B1;
+  --bg-color-tertiary: var(--text-color-primary);
+  --bg-color-fourth: #F0F1EA;
+  --bg-color-accent: #EBB017;
+  --bg-color-social: #7C9994;
+  --bg-color-line: #DDDFD5;
+  --bg-color-pagination: #D7DAC6;
+
+  --border-color-primary: #E5E7DD;
+  --border-color-secondary: var(--bg-color-secondary);
+  --border-color-tertiary: #EBE8E0; 
+  --border-color-input: #B5C3BE;
+  --border-color-swiper: #E0E2D8;
+
+  --font-primary: 'Work Sans', sans-serif;
+  --font-secondary: 'Playfair Display', serif;
+
+  --swiper-theme-color: none;
+}

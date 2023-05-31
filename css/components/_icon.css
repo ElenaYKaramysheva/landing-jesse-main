@@ -1,0 +1,54 @@
+.icon {
+    display: inline-block;
+    width: 1.125rem;
+    height: 1.125rem;
+    background-color: var(--bg-color-tertiary);
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-position: 50% 50%;
+    mask-position: 50% 50%;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+}
+
+.icon--fb {
+    -webkit-mask-image: url('../../img/icon_fb.svg');
+    mask-image: url('../../img/icon_fb.svg');
+}
+
+.icon--inst {
+    -webkit-mask-image: url('../../img/icon_inst.svg');
+    mask-image: url('../../img/icon_inst.svg');
+}
+
+.icon--in {
+    -webkit-mask-image: url('../../img/icon_linkedin.svg');
+    mask-image: url('../../img/icon_linkedin.svg');
+}
+
+.icon--tw {
+    -webkit-mask-image: url('../../img/icon_twitter.svg');
+    mask-image: url('../../img/icon_twitter.svg');
+}
+
+.icon--b {
+    -webkit-mask-image: url('../../img/icon_B.svg');
+    mask-image: url('../../img/icon_B.svg');
+}
+
+.icon--search {
+    -webkit-mask-image: url('../../img/icon_search.svg');
+    mask-image: url('../../img/icon_search.svg');
+}
+
+.icon--arrow {
+    -webkit-mask-image: url('../../img/icon_arrow.svg');
+    mask-image: url('../../img/icon_arrow.svg');
+}
+
+.icon--airplane {
+    -webkit-mask-image: url('../../img/icon_airplane.svg');
+    mask-image: url('../../img/icon_airplane.svg');
+}
+
+

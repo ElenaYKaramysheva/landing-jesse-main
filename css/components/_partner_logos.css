@@ -1,0 +1,17 @@
+.partner-logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 1023.9px) {
+    .partner-logos {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        gap: 1.25rem;
+    }
+
+    .partners-logo__item-img {
+        max-width: 9.3281rem;
+    }
+}

@@ -1,0 +1,8 @@
+.caption {
+    font-size: 1.125rem;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    line-height: normal;
+    text-transform: uppercase;
+    color: var(--text-color-secondary);
+}

@@ -1,0 +1,30 @@
+.text-base {
+    font-weight: 300;
+    font-size: 1.125rem;
+    line-height: 2.2em;
+}
+
+.text-base p + p {
+    margin-top: 1.875rem;
+}
+
+.text-base--loud {
+    font-weight: 400;
+    font-size: 1.625rem;
+    line-height: 1.8em;
+}
+
+.text-base--large {
+    font-size: 1.5rem;
+    line-height: 1.9em;
+}
+
+.text-base--small {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.45em;
+    color: var(--text-color-secondary); 
+}
+
+
+

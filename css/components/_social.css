@@ -1,0 +1,16 @@
+.social-list {
+    display:flex;
+    gap: 1.875rem;
+}
+
+.icon.social-link {
+    background-color: var(--bg-color-social);
+}
+
+@media (hover: hover) {
+    .social-link:hover {
+        background-color: var(--bg-color-tertiary);
+    }
+}
+
+

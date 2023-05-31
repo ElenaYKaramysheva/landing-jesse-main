@@ -1,0 +1,22 @@
+.inline-form {
+    background-color: var(--bg-color-primary);
+    display: flex;  
+}
+
+.inline-form__input {
+    flex-grow: 1;
+    border: 1px solid var(--border-color-input);
+    background: none;
+    padding-left: 2.375rem;
+    font-size: 1.125rem;
+    font-weight: 300;
+    font-style: italic;
+}
+
+@media (max-width: 1023.9px) {
+    .inline-form {
+        justify-content: flex-end;
+    }
+}
+
+ 

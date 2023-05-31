@@ -1,0 +1,49 @@
+.title {
+    font-family: var(--font-secondary);
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: 0.02em;
+    line-height: normal;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.title--large {
+    font-size: 4.125rem;
+    line-height: 1.26em;
+}
+
+.title--medium {
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 1.45em;
+}
+
+.title--small {
+    font-weight: 400;
+    font-size: 1.5rem;
+    letter-spacing: 0em;
+}
+
+.title--card {
+    font-weight: 400;
+    font-size: 1.75rem;
+    line-height: 1.26em;
+}
+
+.title--accent:before {
+    content: '';
+    display: inline-block;
+    width: 1.75em;
+    height: 1.75em;
+    background: var(--bg-color-accent);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 0.5em;
+    transform: translate(-43%, -40%);
+}
+
+.title-circle {
+    position: relative;
+}

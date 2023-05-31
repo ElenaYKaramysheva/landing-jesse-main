@@ -1,0 +1,29 @@
+.section-blog {
+    padding-top: 2.5rem;
+    padding-bottom: 12.5rem;
+}
+
+.section-blog__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-blog__subtitle {
+    margin-top: 1.5rem;
+}
+
+.section-blog__cards {
+    margin-top: 4.0625rem;
+}
+
+.section-blog__button {
+    text-align: center;
+    margin-top: 4.0625rem;
+}
+
+@media (max-width: 1023.9px) {
+    .section-blog {
+        padding-bottom: 6.25rem;
+    }
+}

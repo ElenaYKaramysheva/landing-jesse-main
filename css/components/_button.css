@@ -1,0 +1,61 @@
+.button {
+    border: 1px solid var(--border-color-secondary);
+    background-color: transparent;
+    color: var(--text-color-primary);
+    padding: 0.625rem 2rem;
+    font-weight: 500;
+    font-family: var(--font-primary);
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 3.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.button__icon {
+    margin-left: 0.5rem;
+}
+
+.button--primary {
+    background-color: var(--bg-color-tertiary);
+    color: var(--text-color-primary-inverted);
+    border: none;
+    min-height: 4.625rem;
+    padding: 0.625rem 2.25rem;
+}
+
+.button--large {
+    padding: 0.625rem 5rem;
+    min-height: 5.375rem;
+    font-size: 1.125rem;
+    line-height: 1.17em;
+}
+
+@media (hover: hover) {
+    .button:hover {
+        background-color: var(--bg-color-tertiary);
+        color: var(--text-color-primary-inverted);
+    }
+    
+    .button:hover .button__icon {
+        background-color: var(--text-color-primary-inverted)
+    }
+    
+    .button--primary:hover {
+        background-color: var(--bg-color-accent);
+        color: var(--text-color-primary);
+    }
+}
+
+.button--primary .button__icon {
+    background-color: var(--bg-color-primary);
+}
+
+@media (hover: hover) {
+    .button--primary:hover .button__icon {
+        background-color: var(--text-color-primary);
+    }
+}

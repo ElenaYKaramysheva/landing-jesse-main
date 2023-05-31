@@ -1,0 +1,53 @@
+.section-portfolios {
+    padding-top: 11.25rem;
+    padding-bottom: 12.5rem;
+    position: relative;
+}
+
+.section-portfolios__wrapper::before,
+.section-portfolios__wrapper::after {
+    content: '';
+    display: block;
+    position: absolute;
+    background-image: url(../../img/bg_circles.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 15.8125rem;
+    height: 16.1875rem;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.section-portfolios__wrapper::before {
+    top: 19rem;
+    transform: translateX(-55%);
+}
+
+.section-portfolios__wrapper::after {
+    bottom: 15.25rem;
+    margin-left: 1471px;
+}
+
+.section-portfolios__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.section-portfolios__cards {
+    margin-top: 6.5625rem;
+}
+
+.section-portfolios__button {
+    text-align: center;
+    margin-top: 2.8125rem;
+}
+
+@media (max-width: 1023.9px) {
+    .section-portfolios {
+        padding-top: 6.25rem;
+        padding-bottom: 6.25rem;
+    }
+}

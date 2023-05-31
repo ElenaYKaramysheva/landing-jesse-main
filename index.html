@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jesse Interiors</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/vendor/swiper-bundle.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="/js/lazysizes.min.js" async></script>
+</head>
+
+<body>
+  <div class="page">
+    <header class="page__header header">
+      <nav class="header__wrapper container">
+        <img class="header__logo logo lazyload" data-src="./img/logo.svg" alt="Jesse Interiors">
+        <ul class="header__menu site-menu">
+          <li class="site-menu__item">
+            <a class="site-menu__link site-menu__link--active" href="#">Home</a>
+          </li>
+          <li class="site-menu__item">
+            <a class="site-menu__link" href="#">About</a>
+          </li>
+          <li class="site-menu__item">
+            <a class="site-menu__link" href="#">Services</a>
+          </li>
+          <li class="site-menu__item">
+            <a class="site-menu__link" href="#">Works</a>
+          </li>
+          <li class="site-menu__item">
+            <a class="site-menu__link" href="#">Blog</a>
+          </li>
+          <li class="site-menu__item">
+            <a class="site-menu__link" href="#">Contact</a>
+          </li>
+        </ul>
+        <div class="header-button">
+          <button class="header-button__search" type="button">
+            <i class="icon icon--search header-button__icon"></i>
+          </button>
+          <button class="header-button__burger" type="button">
+            <i class="icon icon--burger header-button__icon"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <main class="page__content">
+      <section class="section section--has-triangle-left-bottom section-promo">
+        <div class="section-promo__content">
+          <div class="section-promo__content-wrapper">
+            <h1 class="section-promo__title title title--large">Nautical Modern Style</h1>
+            <p class="section-promo__text text-base">Suspendisse tempus rhoncus enim pellentesque est vehicula vitae eget. Viverra imperdiet felis sollicitudin pellentesque cursus sit feugiat hac porttitor.</p>
+            <div class="section-promo__button">
+              <a href="#" class="button">view project
+              <i class="icon icon--arrow button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="section-promo__picture">
+          <div class="section-promo__picture-wrapper">
+            <div class="swiper section-promo__slider">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide section-promo__slide">
+                  <img class="section-promo__picture-img lazyload" data-src="./img/promo_interior.jpg" alt="Kitchen-living room interior">
+                </div>
+                <div class="swiper-slide section-promo__slide">
+                  <img class="section-promo__picture-img lazyload" data-src="./img/promo_interior.jpg" alt="Kitchen-living room interior">
+                <div class="swiper-slide section-promo__slide">Slide 3</div>
+                <div class="swiper-slide section-promo__slide">Slide 4</div>
+                <div class="swiper-slide section-promo__slide">Slide 5</div>
+                <div class="swiper-slide section-promo__slide">Slide 6</div>
+              </div>
+              <ul class="section-promo__bullets">
+              </ul>
+             </div>
+          </div>
+        </div>
+      </section> <!--.section-promo-->
+
+      <section class="section section-partners">
+        <div class="container">
+          <ul class="section-partners__list partner-logos">
+            <li class="partners-logo__item">
+              <img class="partners-logo__item-img lazyload" data-src="./img/partner_lavender.svg" alt="Lavender Agency">
+            </li>
+            <li class="partners-logo__item">
+              <img class="partners-logo__item-img lazyload" data-src="./img/partner_vintage.svg" alt="Vin-tage">
+            </li>
+            <li class="partners-logo__item">
+              <img class="partners-logo__item-img lazyload" data-src="./img/partner_violet.svg" alt="Violet">
+            </li>
+            <li class="partners-logo__item">
+              <img class="partners-logo__item-img lazyload" data-src="./img/partner_ceathes.svg" alt="Ceathes">
+            </li>
+            <li class="partners-logo__item">
+              <img class="partners-logo__item-img lazyload" data-src="./img/partner_creater.svg" alt="Creater Fav">
+            </li>
+          </ul>
+        </div>
+      </section> <!--.section-partner-->
+
+      <section class="section section--has-triangle-left-bottom section-about">
+        <div class="container">
+          <div class="section-about__wrapper">
+            <div class="section-about__pictures">
+             <img class="section-about__big-picture lazyload" data-src="./img/about_card_big.jpg" alt="">   
+             <img class="section-about__small-picture lazyload" data-src="./img/about_card_small.jpg" alt="">
+            </div>
+            <div class="content-block section-about__content">
+              <h2 class="content-block__title title title--accent"><span class="title-circle">About me</span></h2>
+              <p class="content-block__subtitle text-base text-base--loud">"Everything is designed. Few things are designed well."</p>
+              <div class="content-block__text text-base">
+                <p>A pellentesque pretium feugiat vel morbi sagittis lorem habitasse cursus. Suspendisse tempus rhoncus enim pellentesque est in neque, elit mattis vehicula vitae eget. Viverra imperdiet felis sollicitudin tesque cursus sit.</p>
+                <p>Feugiat hac porttitor sem dictum velit, elementum odio. Sed ipsum quis nec ut eget facilisis. Quis nibh bibendum nisl quis placerat proin tortor. Mattis in neque, elit mattis morbi sagittis lorem habitasse consequat.</p>
+              </div>
+              <div class="content-block__button">
+                <a href="#" class="button">read more
+                  <i class="icon icon--arrow button__icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> <!--.section-about-me-->
+
+
+      <section class="section section--has-triangle-right-bottom section-services">
+        <div class="container">
+          <div class="section-services__wrapper">
+            <div class="content-block section-services__content">
+              <h2 class="content-block__title title title--accent"><span class="title-circle">Services</span></h2>
+              <p class="content-block__subtitle text-base text-base--loud">Some of my capabilities for your solutions.</p>
+              <div class="content-block__text text-base">
+                <p>Feugiat hac porttitor sem dictum velit, elementum odio. Sed ipsum quis nec eget facilisis. Quis nibh ut bibendum nisl quis placerat proin tortor. Mattis in neque.</p>
+                <p>Feugiat hac porttitor sem dictum velit, elementum odio. Sed ipsum quis nec eget facilisis quis nibh ut bibendum.</p>
+              </div>
+              <div class="content-block__button">
+                <a href="#" class="button">contact me
+                  <i class="icon icon--arrow button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <div class="section-services__picture">
+              <div class="section-services__slider">
+                <div class="swiper services-slider">
+                  <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div 
+                      class="swiper-slide services-slider__slide"
+                      data-title="Residential interior 
+                      design"
+                    >
+                      <img 
+                        class="services-slider__img lazyload" 
+                        data-src="./img/services_card.jpg" 
+                        alt=""
+                      >
+                    </div>
+                    <div 
+                      class="swiper-slide services-slider__slide"
+                      data-title="Commercial & hospitality 
+                      interior design"
+                    >
+                      <img 
+                        class="services-slider__img lazyload" 
+                        data-src="./img/services_card.jpg" 
+                        alt=""
+                      >
+                    </div>
+                    <div  
+                      class="swiper-slide services-slider__slide"
+                      data-title="Multifamily interior 
+                      design"
+                    >
+                      <img 
+                        class="services-slider__img lazyload" 
+                        data-src="./img/services_card.jpg" 
+                        alt=""
+                      >
+                    </div>
+                  </div>
+                </div> <!--swiper-->
+                <ul class="services-slider__bullets"></ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section> <!--.section-services-->
+
+
+      <section class="section section--has-triangle-left-bottom-small section-portfolios">
+        <div class="container">
+          <div class="section-portfolios__wrapper">
+            <div class="section-portfolios__header">
+              <h2 class="section-portfolios__title title">My portfolios</h2>
+              <p class="section-portfolios__text text-base text-base--loud">Designed with my knowledge, skills & passion.</p>
+            </div>
+            <ul class="section-portfolios__cards portfolios-card-group">
+              <li class="portfolios-card-group__item">
+                <article class="portfolios-card">
+                <a class="portfolios-card__link" href="#">
+                  <img 
+                    class="portfolios-card__photo lazyload"
+                    data-src="./img/portfolios_urban_card.jpg" 
+                    data-srcset="
+                      ./img/portfolios_urban_card.jpg 1x,
+                      ./img/potrfolios_urban_card@2x.jpg 2x"
+                    alt="Interior photography"
+                  >
+                  <span class="title title--card portfolios-card__description">
+                    The urban artville
+                  </span>
+                </a>
+                </article>
+              </li>
+              <li class="portfolios-card-group__item">
+                <article class="portfolios-card">
+                  <a class="portfolios-card__link" href="#">
+                    <img 
+                      class="portfolios-card__photo lazyload"
+                      data-src="./img/potrfolios_magnolia_card.jpg" 
+                      data-srcset="
+                        ./img/potrfolios_magnolia_card.jpg 1x,
+                        ./img/potrfolios_magnolia_card@2x.jpg 2x"
+                      alt="Interior photography"
+                    >
+                    <span class="title title--card portfolios-card__description">
+                      Magnolia whimsical boxed
+                    </span>
+                  </a>
+                </article>
+              </li>
+              <li class="portfolios-card-group__item">
+                <article class="portfolios-card">
+                  <a class="portfolios-card__link" href="#">
+                    <img 
+                      class="portfolios-card__photo lazyload"
+                      data-src="./img/portfolios_minimalism_card.jpg" 
+                      data-srcset="
+                        ./img/portfolios_minimalism_card.jpg 1x,
+                        ./img/potrfolios_minimalism_card@2x.jpg 2x"
+                      alt="Interior photography"
+                    >
+                    <span class="title title--card portfolios-card__description">
+                      DeCore minimalism
+                    </span>
+                  </a>
+                </article>
+              </li>
+              <li class="portfolios-card-group__item">
+                <article class="portfolios-card">
+                  <a class="portfolios-card__link" href="#">
+                    <img 
+                      class="portfolios-card__photo lazyload"
+                      data-src="./img/portfolios_cityscapes_card.jpg" 
+                      data-srcset="
+                        ./img/portfolios_cityscapes_card.jpg 1x,
+                        ./img/potrfolios_cityscapes_card@2x.jpg 2x"
+                      alt="Interior photography"
+                    >
+                    <span class="title title--card portfolios-card__description">
+                      Cityscapes plant care
+                    </span>
+                  </a>
+                </article>
+              </li>
+              <li class="portfolios-card-group__item">
+                <article class="portfolios-card">
+                  <a class="portfolios-card__link" href="#">
+                    <img 
+                      class="portfolios-card__photo lazyload"
+                      data-src="./img/portfolios_moretti_card.jpg" 
+                      data-srcset="
+                        ./img/portfolios_moretti_card.jpg 1x,
+                        ./img/potrfolios_moretti_card@2x.jpg 2x"
+                      alt="Interior photography"
+                    >
+                    <span class="title title--card portfolios-card__description">
+                      Moretti furnished
+                    </span>
+                  </a>
+                </article>
+              </li>
+              <li class="portfolios-card-group__item">
+                <article class="portfolios-card">
+                  <a class="portfolios-card__link" href="#">
+                    <img 
+                      class="portfolios-card__photo lazyload"
+                      data-src="./img/portfolios_modern_card.jpg" 
+                      data-srcset="
+                        ./img/portfolios_modern_card.jpg 1x,
+                        ./img/potrfolios_modern_card@2x.jpg 2x"
+                      alt="Interior photography"
+                    >
+                    <span class="title title--card portfolios-card__description">
+                      Modern galaxy Joy
+                    </span>
+                  </a>
+                </article>
+              </li>
+            </ul>
+            <div class="section-portfolios__button">
+              <a href="#" class="button">view all works
+                <i class="icon icon--arrow button__icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section> <!--.section-portfolios-->
+
+
+      <section class="section section-reviews">
+        <div class="container">
+          <p class="section-reviews__caption caption">Testimonials</p>
+          <h2 class="section-reviews__title title">What my clients says</h2>
+          <div class="swiper section-slider">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide section-slider__slide">
+                <blockquote class="review">
+                  <p class="text-base text-base--large review__text">A pellen tesque pretium feugiat vel morbi sagittis lorem habi tasse cursus. Suspen dise tempus oncu enim pellen tesque est in neque, elit habi mattis.</p>
+                  <div class="review__cite">
+                    <cite class="title title--card review__name">Kelly Garcia</cite>
+                    <p class="text-base text-base--small">KG Architects</p>
+                  </div>
+                </blockquote>
+              </div>
+              <div class="swiper-slide section-slider__slide">
+                <blockquote class="review">
+                  <p class="text-base text-base--large review__text">Feugiat hac porttitor sem dictum velit, elementum odio. Sed ipsum quis nec eget facilisis. Quis nibh ut bibendum nisl quis placerat proin tortor mattis in neque.</p>
+                  <div class="review__cite">
+                    <cite class="title title--card review__name">Jacque Adler</cite>
+                    <p class="text-base text-base--small">Aproc construction</p>
+                  </div>
+                </blockquote>
+              </div>
+              <div class="swiper-slide section-slider__slide">
+                <blockquote class="review">
+                  <p class="text-base text-base--large review__text">Quis nibh ut bibendum nisl quis placerat proin tortor mattis in neque. Feugiat hac porttitor sem dictum velit, elementum odio sed eget facilisis.</p>
+                  <div class="review__cite">
+                    <cite class="title title--card review__name">Kerry Frank</cite>
+                    <p class="text-base text-base--small">Adler architecture</p>
+                  </div>
+                </blockquote>
+              </div>
+              <div class="swiper-slide section-slider__slide">
+                <blockquote class="review">
+                  <p class="text-base text-base--large review__text">A pellen tesque pretium feugiat vel morbi sagittis lorem habi tasse cursus. Suspen dise tempus oncu enim pellen tesque est in neque, elit habi mattis.</p>
+                  <div class="review__cite">
+                    <cite class="title title--card review__name">Kelly Garcia</cite>
+                    <p class="text-base text-base--small">KG Architects</p>
+                  </div>
+                </blockquote>
+              </div>
+              <div class="swiper-slide section-slider__slide">
+                <blockquote class="review">
+                  <p class="text-base text-base--large review__text">Feugiat hac porttitor sem dictum velit, elementum odio. Sed ipsum quis nec eget facilisis. Quis nibh ut bibendum nisl quis placerat proin tortor mattis in neque.</p>
+                  <div class="review__cite">
+                    <cite class="title title--card review__name">Jacque Adler</cite>
+                    <p class="text-base text-base--small">Aproc construction</p>
+                  </div>
+                </blockquote>
+              </div>
+              <div class="swiper-slide section-slider__slide">
+                <blockquote class="review">
+                  <p class="text-base text-base--large review__text">Quis nibh ut bibendum nisl quis placerat proin tortor mattis in neque. Feugiat hac porttitor sem dictum velit, elementum odio sed eget facilisis.</p>
+                  <div class="review__cite">
+                    <cite class="title title--card review__name">Kerry Frank</cite>
+                    <p class="text-base text-base--small">Adler architecture</p>
+                  </div>
+                </blockquote>
+              </div>
+            </div>
+          </div>
+          <div class="section-slider__bullets">
+          </div>
+        </div>
+      </section> <!--.section-review-->
+
+
+      <section class="section section-subscription container">
+        <div class="section-subscription__picture">
+          <div class="picture section-subscription__picture-img">
+            <img class="picture__img lazyload" data-src="./img/subscription_photo.jpg" alt="interior photo">
+          </div>
+        </div>
+        <div class="section-subscription__content">
+          <h2 class="section-subscription__title title title--accent"><span class="title-circle">Newsletter</span></h2>
+          <p class="section-subscription__subtitle text-base text-base--loud">Subscribe my newsletter for all offers & latest news.</p>
+          <p class="section-subscription__text text-base">A pellentesque pretium feugiat vel morbi sagittis lorem habitasse cursus. Suspendisse tempus rhoncus enim pellentesque est in neque, elit mattis vehicula vitae eget. Viverra imperdiet felis sollicitudin tesque cursus sit.</p>
+          <form class="section-subscription__form inline-form">
+            <input class="section-subscription__input inline-form__input" type="text" placeholder="Enter your e-mail address here">
+            <button type="submit" class="inline-form__button button button--primary">submit
+              <i class="icon icon--airplane button__icon"></i>
+            </button>
+          </form>
+        </div>
+      </section> <!--.section-subscription-->
+
+
+      <section class="section section-blog">
+        <div class="container">
+          <div class="section-blog__wrapper">
+            <h2 class="section-blog__title title title--accent"><span class="title-circle">Blog Articles</span></h2>
+            <p class="section-blog__subtitle text-base text-base--loud">Read some latest blog articles posts.</p>
+          </div>
+          <ul class="section-blog__cards blog-card-group">
+            <li class="blog-card-group__item">
+              <article class="blog-card">
+                <a class="blog-card__photo-link" href="#">
+                  <img 
+                    class="blog-card__photo lazyload" 
+                    data-src="./img/blog_card_minimalism.jpg"
+                    data-srcset="
+                      ./img/blog_card_minimalism.jpg 1x,
+                      ./img/blog_card_minimalism@2x.jpg 2x" 
+                    alt="Interior photography in minimalism style"
+                  >
+                </a>
+                <p class="blog-card__text">16 Feb, 2021</p>
+                <a class="blog-card__title-link" href="#">
+                  <span class="title title--medium blog-card__title">
+                    minimalism is always good for interior design
+                  </span>
+                </a>
+              </article>
+            </li>
+            <li class="blog-card-group__item">
+              <article class="blog-card">
+                <a class="blog-card__photo-link" href="#">
+                  <img 
+                    class="blog-card__photo lazyload" 
+                    data-src="./img/blog_modern_card.jpg"
+                    data-srcset="
+                      ./img/blog_modern_card.jpg 1x,
+                      ./img/blog_modern_card@2x.jpg 2x" 
+                    alt="Interior photography in modern style"
+                  >
+                </a>
+                <p class="blog-card__text">17 Feb, 2021</p>
+                <a class="blog-card__title-link" href="#">
+                  <span class="title title--medium blog-card__title">
+                    Top modern interior designing trends in 2021
+                  </span>
+                </a>
+              </article>
+            </li>
+            <li class="blog-card-group__item">
+              <article class="blog-card">
+                <a class="blog-card__photo-link" href="#">
+                  <img 
+                    class="blog-card__photo lazyload" 
+                    data-src="./img/blog_card_elements.jpg"
+                    data-srcset="
+                      ./img/blog_card_elements.jpg 1x,
+                      ./img/blog_card_elements@2x.jpg 2x" 
+                    alt="elements photography for beautiful interior designing"
+                  >
+                </a>
+                <p class="blog-card__text">18 Feb, 2021</p>
+                <a class="blog-card__title-link" href="#">
+                  <span class="title title--medium blog-card__title">
+                    Ten main elements for beautiful interior designing
+                  </span>
+                </a>
+              </article>
+            </li>
+          </ul>
+          <div class="section-blog__button">
+            <a href="#" class="button">read articles
+              <i class="icon icon--arrow button__icon"></i>
+            </a>
+          </div>
+        </div>
+      </section> <!--.section-blog-->
+
+
+      <section class="section section-cta">
+        <div class="container">
+          <div class="section-cta__wrapper">
+            <div class="section-cta__contacts">
+              <h2 class="section-cta__title title title--large">Feel Free to Contact&nbsp;Me</h2>
+              <p class="section-cta__text text-base">
+                If you have any projects in mind say hello at 
+                <a class="link" href="#">contact@templatesjungle.com</a> 
+                or just call me at 
+                <a href="tel:+111123423441232">+111 1234 2344 1232</a>
+                .
+              </p>
+            </div>
+            <div class="section-cta__button">
+              <button type="button" class="button button--primary button--large">contact me
+              </button>
+            </div>
+          </div>
+        </div>
+      </section> <!--.section-cta-->
+
+    </main>
+
+    <footer class="page__footer footer section section--has-triangle-right-top">
+      <div class="container">
+        <div class="footer__wrapper">
+
+          <section class="about footer__about">
+            <img class="logo lazyload" data-src="./img/logo.svg" alt="Jesse Interiors">
+            <p class="about__text text-base">Feugiat hac porttitor sem dictum velit, elementum odio. Sed ipsum quis nec eget facilisis quis nibh ut bibendum.</p> 
+          </section><!--about-->
+
+          <section class="footer-navigation">
+            <h3 class="title title--small">Quick links</h3>
+            <ul class="footer-navigation__list text-base">
+              <li class="footer-navigation__item">
+                <a class="footer-navigation__link" href="#">Home</a>
+              </li>
+              <li class="footer-navigation__item">
+                <a class="footer-navigation__link" href="#">About</a>
+              </li>
+              <li class="footer-navigation__item">
+                <a class="footer-navigation__link" href="#">Works</a>
+              </li>
+              <li class="footer-navigation__item">
+                <a class="footer-navigation__link" href="#">Blog</a>
+              </li>
+            </ul>
+          </section><!--.footer-navigation-->
+
+          <section class="footer-navigation">
+            <h3 class="title title--small">Services</h3>
+            <ul class="footer-navigation__list text-base">
+              <li class="footer-navigation__item">
+                <a class="footer-navigation__link" href="#">Residential</a>
+              </li>
+              <li class="footer-navigation__item">
+                <a class="footer-navigation__link" href="#">Commercial & hospitality</a>
+              </li>
+              <li class="footer-navigation__item">
+                <a class="footer-navigation__link" href="#">Multifamily</a>
+              </li>
+              <li class="footer-navigation__item">
+                <a class="footer-navigation__link" href="#">All Services</a>
+              </li>
+            </ul>
+          </section><!--.footer-navigation-->
+
+          <section class="footer-navigation">
+            <h3 class="title title--small">Get in touch</h3>
+            <ul class="footer-navigation__list text-base">
+              <li class="footer-navigation__item footer-navigation__item--dashed">
+                <a class="footer-navigation__link " href="#">info@templatesjungle.com</a>
+              </li>
+              <li class="footer-navigation__item footer-navigation__item--dashed">
+                <address class="">5Th Street Avenue, New York, USA</address>
+              </li>
+              <li class="footer-navigation__item footer-navigation__item--dashed">
+                <a class="footer-navigation__link" href="tel:01155487986556">011-554-8798-6556</a>
+              </li>
+            </ul>
+          </section><!--.footer-navigation-->
+        </div>
+      </div><!--.footer__wrapper-->
+
+      <div class="footer__copyright copyright">
+        <div class="container">
+          <div class="copyright__wrapper">
+            <p class="copyright__text text-base">© 2021 <b class="copyright__text-accent">TemplatesJungle.</b> All rights reserved.</p>
+            <ul class="social-list">
+              <li class="social-list__item">
+                <a class="icon icon--fb social-link" href="#">Facebook</a>
+              </li>
+              <li class="social-list__item">
+                <a class="icon icon--inst social-link" href="#">Instagram</a>
+              </li>
+              <li class="social-list__item">
+                <a class="icon icon--in social-link" href="#">LinkedIn</a>
+              </li>
+              <li class="social-list__item">
+                <a class="icon icon--tw social-link" href="#">Twitter</a>
+              </li>
+              <li class="social-list__item">
+                <a class="icon icon--b social-link" href="#"></a>
+              </li>
+            </ul>
+          </div> <!--.copyright__wrapper-->
+        </div>
+      </div>
+
+    </footer>
+
+  </div> <!--.page-->
+
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/swiper-element-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
